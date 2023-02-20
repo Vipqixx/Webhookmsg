@@ -14,6 +14,7 @@ class App(customtkinter.CTk):
         self.root = customtkinter.CTk()
         self.root.title("Dhooks")
         self.root.geometry("1000x400")
+        self.root.minsize(1000,400)
         self.root.resizable(True, False)
 # ---------------------------------------------------------------- top frame
         self.TopFrame = customtkinter.CTkFrame(master=self.root)
